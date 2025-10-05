@@ -16,6 +16,9 @@ This project implements a MinHeap data structure with support for:
 - Benchmarking on arrays of different sizes and input types.
 - CSV export of benchmarking results.
 
+## Class Structure
+Here is a diagram of how the classes are related, so you can quickly see the project structure:
+
 ## Features
 - **Heap operations**: insert, extractMin, heapify up/down.
 - **HeapSort**: sorts arrays using a MinHeap.
@@ -28,5 +31,12 @@ This project implements a MinHeap data structure with support for:
 <img width="523" height="312" alt="image" src="https://github.com/user-attachments/assets/ce7d091a-0d3f-4709-87be-2229c0019f5b" />
 <img width="528" height="309" alt="image" src="https://github.com/user-attachments/assets/2be6bdd8-4506-4c64-b43a-6286169f4798" />
 <img width="528" height="308" alt="image" src="https://github.com/user-attachments/assets/9432dbef-d586-4bbc-a397-af72f766f70f" />
+
+## Tests
+JUnit tests cover:
+- Extracting from empty heap throws exception
+- Simple insert & extract
+- HeapSort scales to large arrays
+- HeapSort works with duplicate elements
   
 - **CSV Export**: Results are saved to `results.csv` for analysis.
