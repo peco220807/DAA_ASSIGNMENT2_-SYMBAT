@@ -7,7 +7,7 @@ A MinHeap is a special type of binary heap where the smallest element is always 
 - Useful for efficiently getting the minimum value.
 - Implemented using an array for simplicity.
 
-# MinHeap Sorting & Benchmarking
+# MinHeap Sorting and Benchmarking
 
 This project implements a MinHeap data structure with support for:
 - Insertion and extraction of minimum elements.
