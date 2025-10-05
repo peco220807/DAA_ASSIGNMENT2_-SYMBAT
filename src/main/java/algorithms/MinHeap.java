@@ -66,7 +66,6 @@ public class MinHeap {
         heap[j] = tmp;
     }
 
-    // 👇 вот этот метод нужен для BenchmarkRunner
     public static void heapSort(int[] arr, PerformanceTracker tracker) {
         MinHeap h = new MinHeap(arr.length);
         for (int x : arr) h.insert(x);
