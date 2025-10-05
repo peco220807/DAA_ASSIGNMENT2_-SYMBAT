@@ -17,7 +17,8 @@ This project implements a MinHeap data structure with support for:
 - CSV export of benchmarking results.
 
 ## Class Structure
-Here is a diagram of how the classes are related, so you can quickly see the project structure:
+Here is a screen of how the classes are related, so you can quickly see the project structure:
+<img width="623" height="1050" alt="image" src="https://github.com/user-attachments/assets/5a9eaea6-9629-49aa-af79-56059236ee82" />
 
 ## Features
 - **Heap operations**: insert, extractMin, heapify up/down.
