@@ -5,10 +5,6 @@ A MinHeap is a special type of binary heap where the smallest element is always 
 ## Key Points
 - Each parent node is smaller than its children.
 - Useful for efficiently getting the minimum value.
-- Common operations:
-insert(value) — add a new value to the heap.
-extractMin() — remove and return the smallest value.
-peek()` — see the smallest value without removing it.
 - Implemented using an array for simplicity.
 
 # MinHeap Sorting & Benchmarking
